@@ -4,14 +4,14 @@ For the OAI eNodeB application, the file where main function is placed is {{lte-
 The main operations executed at the lte-softmodem main function are:
 
 
-1. Parse the command line options
-2. Create the data-structures to hold configuration/operation
-3. Initialize the logging system(s)
-4. Fill the configurations
-	1.  Configure the eNodeB parameters
-	2.	Configure eNodeB interfaces with RF (or fronthaul) and MAC
+1. Parse the command line options 解析命令行选项
+2. Create the data-structures to hold configuration/operation 创建数据结构以保存配置/操作
+3. Initialize the logging system(s) 初始化日志记录系统
+4. Fill the configurations 填写配置文件
+	1.  Configure the eNodeB parameters 配置eNodeB 参数
+	2.	Configure eNodeB interfaces with RF (or fronthaul) and MAC   使用RF（或前传）和MAC配置eNodeB接口
 		- This topic is discussed at section: **Interfaces (MAC and RF/Fronthaul)**
-5. Start the thread(s)
+5. Start the thread(s) 启动线程
 	- This topic is discussed at section: **eNodeB Start**
 
 
